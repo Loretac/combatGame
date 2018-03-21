@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		831428D1206219A30084FBD1 /* Character.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 831428C2206219A20084FBD1 /* Character.cpp */; };
+		831428D2206219A30084FBD1 /* BlueMen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 831428C3206219A20084FBD1 /* BlueMen.cpp */; };
+		831428D3206219A30084FBD1 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 831428C5206219A20084FBD1 /* main.cpp */; };
+		831428D4206219A30084FBD1 /* Medusa.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 831428C6206219A20084FBD1 /* Medusa.cpp */; };
+		831428D5206219A30084FBD1 /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 831428C8206219A20084FBD1 /* Game.cpp */; };
+		831428D6206219A30084FBD1 /* Menu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 831428C9206219A20084FBD1 /* Menu.cpp */; };
+		831428D7206219A30084FBD1 /* Vampire.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 831428CA206219A20084FBD1 /* Vampire.cpp */; };
+		831428D8206219A30084FBD1 /* Queue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 831428CB206219A20084FBD1 /* Queue.cpp */; };
+		831428D9206219A30084FBD1 /* HarryPotter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 831428CC206219A30084FBD1 /* HarryPotter.cpp */; };
+		831428DA206219A30084FBD1 /* Barbarian.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 831428CD206219A30084FBD1 /* Barbarian.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		831428B22062198F0084FBD1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		831428B42062198F0084FBD1 /* combatGame */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = combatGame; sourceTree = BUILT_PRODUCTS_DIR; };
+		831428BE206219A10084FBD1 /* BlueMen.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BlueMen.hpp; sourceTree = "<group>"; };
+		831428BF206219A10084FBD1 /* Medusa.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Medusa.hpp; sourceTree = "<group>"; };
+		831428C0206219A10084FBD1 /* Menu.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Menu.hpp; sourceTree = "<group>"; };
+		831428C1206219A10084FBD1 /* Vampire.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Vampire.hpp; sourceTree = "<group>"; };
+		831428C2206219A20084FBD1 /* Character.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Character.cpp; sourceTree = "<group>"; };
+		831428C3206219A20084FBD1 /* BlueMen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BlueMen.cpp; sourceTree = "<group>"; };
+		831428C4206219A20084FBD1 /* Game.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Game.hpp; sourceTree = "<group>"; };
+		831428C5206219A20084FBD1 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		831428C6206219A20084FBD1 /* Medusa.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Medusa.cpp; sourceTree = "<group>"; };
+		831428C7206219A20084FBD1 /* Barbarian.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Barbarian.hpp; sourceTree = "<group>"; };
+		831428C8206219A20084FBD1 /* Game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = "<group>"; };
+		831428C9206219A20084FBD1 /* Menu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Menu.cpp; sourceTree = "<group>"; };
+		831428CA206219A20084FBD1 /* Vampire.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Vampire.cpp; sourceTree = "<group>"; };
+		831428CB206219A20084FBD1 /* Queue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Queue.cpp; sourceTree = "<group>"; };
+		831428CC206219A30084FBD1 /* HarryPotter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HarryPotter.cpp; sourceTree = "<group>"; };
+		831428CD206219A30084FBD1 /* Barbarian.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Barbarian.cpp; sourceTree = "<group>"; };
+		831428CE206219A30084FBD1 /* Character.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Character.hpp; sourceTree = "<group>"; };
+		831428CF206219A30084FBD1 /* HarryPotter.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = HarryPotter.hpp; sourceTree = "<group>"; };
+		831428D0206219A30084FBD1 /* Queue.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Queue.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		831428B12062198F0084FBD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		831428AB2062198F0084FBD1 = {
+			isa = PBXGroup;
+			children = (
+				831428B62062198F0084FBD1 /* combatGame */,
+				831428B52062198F0084FBD1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		831428B52062198F0084FBD1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				831428B42062198F0084FBD1 /* combatGame */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		831428B62062198F0084FBD1 /* combatGame */ = {
+			isa = PBXGroup;
+			children = (
+				831428CD206219A30084FBD1 /* Barbarian.cpp */,
+				831428C7206219A20084FBD1 /* Barbarian.hpp */,
+				831428C3206219A20084FBD1 /* BlueMen.cpp */,
+				831428BE206219A10084FBD1 /* BlueMen.hpp */,
+				831428C2206219A20084FBD1 /* Character.cpp */,
+				831428CE206219A30084FBD1 /* Character.hpp */,
+				831428C8206219A20084FBD1 /* Game.cpp */,
+				831428C4206219A20084FBD1 /* Game.hpp */,
+				831428CC206219A30084FBD1 /* HarryPotter.cpp */,
+				831428CF206219A30084FBD1 /* HarryPotter.hpp */,
+				831428C5206219A20084FBD1 /* main.cpp */,
+				831428C6206219A20084FBD1 /* Medusa.cpp */,
+				831428BF206219A10084FBD1 /* Medusa.hpp */,
+				831428C9206219A20084FBD1 /* Menu.cpp */,
+				831428C0206219A10084FBD1 /* Menu.hpp */,
+				831428CB206219A20084FBD1 /* Queue.cpp */,
+				831428D0206219A30084FBD1 /* Queue.hpp */,
+				831428CA206219A20084FBD1 /* Vampire.cpp */,
+				831428C1206219A10084FBD1 /* Vampire.hpp */,
+			);
+			path = combatGame;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		831428B32062198F0084FBD1 /* combatGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 831428BB2062198F0084FBD1 /* Build configuration list for PBXNativeTarget "combatGame" */;
+			buildPhases = (
+				831428B02062198F0084FBD1 /* Sources */,
+				831428B12062198F0084FBD1 /* Frameworks */,
+				831428B22062198F0084FBD1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = combatGame;
+			productName = combatGame;
+			productReference = 831428B42062198F0084FBD1 /* combatGame */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		831428AC2062198F0084FBD1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Chris Loreta";
+				TargetAttributes = {
+					831428B32062198F0084FBD1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 831428AF2062198F0084FBD1 /* Build configuration list for PBXProject "combatGame" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 831428AB2062198F0084FBD1;
+			productRefGroup = 831428B52062198F0084FBD1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				831428B32062198F0084FBD1 /* combatGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		831428B02062198F0084FBD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				831428D6206219A30084FBD1 /* Menu.cpp in Sources */,
+				831428D9206219A30084FBD1 /* HarryPotter.cpp in Sources */,
+				831428DA206219A30084FBD1 /* Barbarian.cpp in Sources */,
+				831428D2206219A30084FBD1 /* BlueMen.cpp in Sources */,
+				831428D1206219A30084FBD1 /* Character.cpp in Sources */,
+				831428D4206219A30084FBD1 /* Medusa.cpp in Sources */,
+				831428D7206219A30084FBD1 /* Vampire.cpp in Sources */,
+				831428D3206219A30084FBD1 /* main.cpp in Sources */,
+				831428D5206219A30084FBD1 /* Game.cpp in Sources */,
+				831428D8206219A30084FBD1 /* Queue.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		831428B92062198F0084FBD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		831428BA2062198F0084FBD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		831428BC2062198F0084FBD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		831428BD2062198F0084FBD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		831428AF2062198F0084FBD1 /* Build configuration list for PBXProject "combatGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				831428B92062198F0084FBD1 /* Debug */,
+				831428BA2062198F0084FBD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		831428BB2062198F0084FBD1 /* Build configuration list for PBXNativeTarget "combatGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				831428BC2062198F0084FBD1 /* Debug */,
+				831428BD2062198F0084FBD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 831428AC2062198F0084FBD1 /* Project object */;
+}
